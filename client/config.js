@@ -5,7 +5,8 @@ dotenv.config()
 const config = {
   ioSocket: process.env.IO_API,
   api: process.env.API,
-  isSocket: process.env.IS_SOCKET
+  isSocket: process.env.IS_SOCKET,
+  url: process.env.URL
 }
 
 export default config

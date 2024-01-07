@@ -40,6 +40,10 @@ server.get('/', (req, res) => {
   res.send('Express Server')
 })
 
+// server.get('/api/v1/skills', async (req, res) => {
+
+// })
+
 const serverListen = httpServer.listen(serverPort, () => {
   const { port } = serverListen.address()
   console.log(`Server is running on port http://localhost:${port}/`)

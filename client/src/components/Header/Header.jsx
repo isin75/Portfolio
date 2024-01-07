@@ -1,5 +1,5 @@
 import React from 'react'
-import SectionHeader from './SectionHeader'
+import SectionHeader from '../../common/SectionHeader'
 import Navbar from './Navbar'
 
 const Header = () => {

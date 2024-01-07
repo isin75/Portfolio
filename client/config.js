@@ -1,12 +1,8 @@
-import dotenv from 'dotenv'
-
-dotenv.config()
-
 const config = {
-  ioSocket: process.env.IO_API,
-  api: process.env.API,
-  isSocket: process.env.IS_SOCKET,
-  url: process.env.URL
+  ioSocket: false,
+  api: 'http://localhost:8080/',
+  isSocket: false,
+  url: 'http://localhost:8087/'
 }
 
 export default config

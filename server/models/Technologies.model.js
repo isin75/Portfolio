@@ -8,6 +8,10 @@ const technologiesSchema = new mongoose.Schema({
   imgUrl: {
     type: String,
     require: true
+  },
+  _isDeleted: {
+    type: Boolean,
+    default: false
   }
 })
 

@@ -24,6 +24,10 @@ const projectsSchema = new mongoose.Schema({
   webURL: {
     type: String,
     require: true
+  },
+  _isDeleted: {
+    type: Boolean,
+    default: false
   }
 })
 

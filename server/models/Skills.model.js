@@ -12,6 +12,10 @@ const skillsSchema = new mongoose.Schema({
   description: {
     type: String,
     require: true
+  },
+  _isDeleted: {
+    type: Boolean,
+    default: false
   }
 })
 

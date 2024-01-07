@@ -16,6 +16,10 @@ const jobsSchema = new mongoose.Schema({
   timeRange: {
     type: String,
     require: true
+  },
+  _isDeleted: {
+    type: Boolean,
+    default: false
   }
 })
 

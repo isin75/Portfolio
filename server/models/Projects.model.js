@@ -1,0 +1,30 @@
+import mongoose from 'mongoose'
+
+const projectsSchema = new mongoose.Schema({
+  title: {
+    type: String,
+    require: true
+  },
+  description: {
+    type: String,
+    require: true
+  },
+  imgURL: {
+    type: String,
+    require: true
+  },
+  tags: {
+    type: [String],
+    require: true
+  },
+  repoURL: {
+    type: String,
+    require: true
+  },
+  webURL: {
+    type: String,
+    require: true
+  }
+})
+
+export default mongoose.model('projects', projectsSchema)

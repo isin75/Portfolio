@@ -19,11 +19,7 @@ const About = ({ about }) => {
           </a>
         </div>
         <div className="about-me-img-container">
-          <img
-            src={`../../../../public/img/me/${about.imgUrl}`}
-            alt="It's me mario"
-            className="about-me-img"
-          />
+          <img src={`./dist/img/me/${about.imgUrl}`} alt="It's me mario" className="about-me-img" />
         </div>
       </div>
     </section>

@@ -8,7 +8,7 @@ const TechList = ({ tech }) => {
           <li className="tech-preview" key={it._id}>
             <img
               className="tech-img"
-              src={`../../../../public/img/tech-icon/${it.imgUrl}.png`}
+              src={`./dist/img/tech-icon/${it.imgUrl}.png`}
               alt="tech icon"
             />
           </li>

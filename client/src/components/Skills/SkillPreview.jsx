@@ -6,7 +6,7 @@ const SkillPreview = ({ skill }) => {
     <li className="skill-preview">
       <img
         className="skill-image"
-        src={`../../../../public/img/skills-icon/${skill.imgUrl}`}
+        src={`./dist/img/skills-icon/${skill.imgUrl}`}
         alt={skill.title}
       />
       <h3 className="skill-title section-title">{skill.title}</h3>

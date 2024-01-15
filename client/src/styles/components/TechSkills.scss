@@ -1,0 +1,12 @@
+.tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 3rem;
+  .tech-preview {
+    padding: 10px;
+    .tech-img {
+      height: 50px;
+    }
+  }
+}

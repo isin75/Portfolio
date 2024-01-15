@@ -1,41 +1,37 @@
 import React from 'react'
-import { useDispatch, useSelector } from 'react-redux'
+// import { useDispatch, useSelector } from 'react-redux'
 
-import reactLogo from '../../assets/react.svg'
-// eslint-disable-next-line import/no-unresolved, import/no-absolute-path
-import viteLogo from '/vite.svg'
-import './Home.css'
-import { increment } from '../../../store/reducers/slice'
+import SkillsList from '../../components/Skills/SkillsList'
+import TechList from '../../components/TechList/TechList'
+import ProjectsList from '../../components/ProjectsList/ProjectsList'
+import About from '../../components/About/About'
+import Contact from '../../components/Contact/Contact'
+import services from '../../../services'
+// import {
+//   getDataJobs,
+//   getDataProjects,
+//   getDataSkills,
+//   getDataTech
+// } from '../../../store/reducers/DataSlice'
 
 const Home = () => {
-  const { count } = useSelector((s) => s.slice)
-  const dispatch = useDispatch()
-
-  const handleClickPlus = () => {
-    return dispatch(increment())
-  }
-
+  // const { jobs, skills, projects, tech } = useSelector((s) => s.dataSlice)
+  // const dispatch = useDispatch()
+  // useEffect(() => {
+  //   dispatch(getDataJobs())
+  //   dispatch(getDataProjects())
+  //   dispatch(getDataSkills())
+  //   dispatch(getDataTech())
+  // }, [])
+  const { skills, technologies, projects, about, contact } = services.query()
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button type="button" onClick={() => handleClickPlus()}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>client/src/pages/home/home.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">Click on the Vite and React logos to learn more</p>
-    </>
+    <section className="home-page">
+      <SkillsList skills={skills} />
+      <TechList tech={technologies} />
+      <ProjectsList projects={projects} />
+      <About about={about} />
+      <Contact contact={contact} />
+    </section>
   )
 }
 

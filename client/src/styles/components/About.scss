@@ -1,0 +1,60 @@
+#about {
+  .about-container-div {
+    padding: 40px;
+    display: flex;
+    position: relative;
+    .about-details {
+      margin-right: 2rem;
+      width: 60%;
+
+      .about-title,
+      .about-description {
+        line-height: 3rem;
+      }
+    }
+
+    .about-me-img-container {
+      width: 20%;
+      max-height: 50vh;
+      box-shadow: 0px -1px 4px gray;
+      overflow: hidden;
+    }
+
+    .about-me-img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+
+      object-position: 0 0;
+    }
+
+    .download-link {
+      margin-top: 1.5rem;
+      display: inline-block;
+      @include btn-style;
+    }
+
+    @media (min-width: 850px) {
+      .download-link {
+        position: absolute;
+        bottom: 40px;
+        left: 40px;
+      }
+    }
+    @media (max-width: 850px) {
+      flex-direction: column-reverse;
+      .about-details {
+        margin-right: 0;
+        width: 100%;
+      }
+
+      .about-me-img {
+        width: 40vh;
+        height: 40vh;
+        margin: 0 auto 2rem;
+
+        border-radius: 250px;
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+// SETUP
+@import 'setup/mixins';
+@import 'setup/variables';
+
+// BASICS
+@import 'base/base';
+@import 'base/font';
+
+// COMPONENTS
+@import 'components/Header';
+@import 'components/SectionHeader';
+@import 'components/Navbar';
+@import 'components/SkillsList';
+@import 'components/SkillPreview';
+@import 'components/ProjectList';
+@import 'components/ProjectPreview';
+@import 'components/TechSkills';
+@import 'components/About';
+@import 'components/Contact';
+@import 'components/Footer';
+@import 'components/JobPreview';
+@import 'components/JobsList';
+
+//Pages
+@import 'page/Home.scss';

@@ -20,7 +20,7 @@ const About = ({ about }) => {
         </div>
         <div className="about-me-img-container">
           <img
-            src={`/client/src/assets/img/me/${about.imgUrl}`}
+            src={`../../../../public/img/me/${about.imgUrl}`}
             alt="It's me mario"
             className="about-me-img"
           />

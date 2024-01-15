@@ -14,7 +14,7 @@ const Header = () => {
       <Navbar />
       <div className="logo-name-div">
         <h2 className="name">Ivan</h2>
-        <img className="header-logo" src="./dist/img/logo/logo.png" alt="header logo" />
+        <img className="header-logo" src="./img/logo/logo.png" alt="header logo" />
         <h2 className="name">Shyshykin</h2>
       </div>
     </section>

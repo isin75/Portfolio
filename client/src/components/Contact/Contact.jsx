@@ -7,11 +7,7 @@ const Contact = ({ contact }) => {
     return (
       <li key={info.link} className="contact-info">
         <a className="contacF-link" href={info.link}>
-          <img
-            className="contact-icon"
-            src={`../../../../public/img/contact-icon/${info.imgUrl}`}
-            alt={title}
-          />
+          <img className="contact-icon" src={`./img/contact-icon/${info.imgUrl}`} alt={title} />
           <h2 className="contact-title">{title}</h2>
         </a>
       </li>

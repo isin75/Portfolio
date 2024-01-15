@@ -24,7 +24,7 @@ const ProjectPreview = ({ projects }) => {
       </div>
       <img
         className="project-img"
-        src={`./dist/img/projects-img/${projects.imgUrl}.png`}
+        src={`./img/projects-img/${projects.imgUrl}.png`}
         alt={`Project ${projects.title}`}
       />
     </li>

@@ -6,11 +6,7 @@ const TechList = ({ tech }) => {
       {tech.map((it) => {
         return (
           <li className="tech-preview" key={it._id}>
-            <img
-              className="tech-img"
-              src={`./dist/img/tech-icon/${it.imgUrl}.png`}
-              alt="tech icon"
-            />
+            <img className="tech-img" src={`./img/tech-icon/${it.imgUrl}.png`} alt="tech icon" />
           </li>
         )
       })}

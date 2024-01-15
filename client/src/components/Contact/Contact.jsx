@@ -9,7 +9,7 @@ const Contact = ({ contact }) => {
         <a className="contacF-link" href={info.link}>
           <img
             className="contact-icon"
-            src={`/client/src/assets/img/contact-icon/${info.imgUrl}`}
+            src={`../../../../public/img/contact-icon/${info.imgUrl}`}
             alt={title}
           />
           <h2 className="contact-title">{title}</h2>

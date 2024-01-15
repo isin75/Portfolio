@@ -15,7 +15,7 @@ const portfolio = {
         'This is My Portfolio, You Will Be Able to Get to Know Me a Little Bit More Before Hiring. This App Created Using React Hooks, Redux and SCSS.',
       imgUrl: 'portfolio',
       tags: ['JavaScript', 'React', 'Hooks', 'Redux', 'SCSS'],
-      codeUrl: 'https://github.com/NofarPeled/Nofar-Peled-Portfolio',
+      codeUrl: 'https://github.com/isin75/Portfolio',
       webUrl: 'https://nofarpeled.github.io/Nofar-Peled-Portfolio'
     },
     {
@@ -70,7 +70,7 @@ const portfolio = {
     },
     {
       _id: 'f909jdioj8JDKJ9kk',
-      title: 'Meme Generator',
+      title: 'Square Clicker Challenge',
       description:
         'This App Will Allow You Create Meme Download Them, and Send Them to Your Family & Friends. This App Created Using React, Redux and SCSS. ',
       imgUrl: 'meme-generator',

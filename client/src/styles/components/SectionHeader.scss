@@ -16,28 +16,28 @@
 
 .header-background-image {
   height: 86vh;
-  background-image: url('client/src/assets/img/back/sea-side.jpg');
+  background-image: url('./img/back/sea-side.jpg');
   clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
 }
 
 .skills-background-image {
   margin-top: 0;
-  background-image: url('client/src/assets/img/back/forest.jpg');
+  background-image: url('./img/back/forest.jpg');
 }
 
 .projects-background-image {
   margin: 3rem 0;
-  background-image: url('client/src/assets/img/back/rock-river.jpg');
+  background-image: url('./img/back/rock-river.jpg');
 }
 
 .about-background-image {
   margin: 3rem 0;
-  background-image: url('client/src/assets/img/back/sea-side.jpg');
+  background-image: url('./img/back/sea-side.jpg');
 }
 
 .contact-background-image {
   margin: 3rem 0;
-  background-image: url('client/src/assets/img/back/skyscraper.jpg');
+  background-image: url('./img/back/skyscraper.jpg');
 }
 
 .skills-background-image,

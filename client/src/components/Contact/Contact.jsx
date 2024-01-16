@@ -23,7 +23,7 @@ const Contact = ({ contact }) => {
         }}
       />
 
-      <img className="logo" src="/client/src/assets/img/logo/logo.png" alt="website-logo" />
+      <img className="logo" src="./img/logo/logo.png" alt="website-logo" />
 
       <h2 className="section-title">Get In Touch</h2>
 

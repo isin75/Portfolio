@@ -16,47 +16,70 @@ const portfolio = {
       imgUrl: 'portfolio',
       tags: ['JavaScript', 'React', 'Hooks', 'Redux', 'SCSS'],
       codeUrl: 'https://github.com/isin75/Portfolio',
-      webUrl: 'https://nofarpeled.github.io/Nofar-Peled-Portfolio'
+      webUrl: 'https://portfolioisin.vercel.app/'
+    },
+    {
+      _id: 'JHDJeVJddsdbq',
+      title: 'Git Browser',
+      description:
+        'This application allows you to search for GitHub users, view open repositories, read README files, and go to the user or repository page. This application is created using React Hooks, Tailwind CSS, GitHub API.',
+      imgUrl: 'gitbrowser',
+      tags: ['JavaScript', 'React', 'Hooks', 'Tailwind CSS'],
+      codeUrl: 'https://github.com/isin75/Git_brouser_vite',
+      webUrl: 'https://git-brouser-vite.vercel.app/'
     },
     {
       _id: '0jeueeIVJKN',
-      title: 'Covid 19 Tracker',
+      title: 'Online store',
       description:
-        'This App Will Allow You to Track the Coronavirus Spread in Your Country and all Around the World. This App Created Using React Hooks, Redux & SCSS at the Frontend, and Node JS with Express, MongoDB as the Data Base and Selenium Web Driver to Scape the Data Table from Public Coronavirus Tracker Website at the Backend.',
-      imgUrl: 'covid-19',
-      tags: [
-        'JavaScript',
-        'React',
-        'Hooks',
-        'Redux',
-        'SCSS',
-        'NodeJS',
-        'ExpressJS',
-        'Selenium WebDriver',
-        'MongoDB'
-      ],
-      codeUrl: 'https://github.com/NofarPeled/covid-19-tracker',
-      webUrl: 'https://covid-19-tracker-np.herokuapp.com'
+        'This application consists of pages with goods and a basket, the ability to change currency with automatic recalculation of all prices and sums, as well as a variety of product filtering on the server. This application is created using React Hooks, Redux Tailwind CSS on Frontend, and Node JS, FS with Express on Backend.',
+      imgUrl: 'ecommerce',
+      tags: ['JavaScript', 'React', 'Hooks', 'Redux', 'Tailwind CSS', 'NodeJS', 'ExpressJS'],
+      codeUrl: 'https://github.com/isin75/Ecommerce_Redux',
+      webUrl: ''
     },
     {
       _id: 'fdjkJK5JKDnkfj',
-      title: 'Tickets',
+      title: 'To-Do App',
       description:
-        'This App Will Allow You to Add, Remove, Edit and Read Tickets from Ticket List. This App Created Using React Hooks, Redux and SCSS.',
-      imgUrl: 'tickets',
-      tags: ['JavaScript', 'React', 'Hooks', 'Redux', 'SCSS'],
-      codeUrl: 'https://github.com/NofarPeled/Tickets',
-      webUrl: 'https://nofarpeled.github.io/Tickets'
+        'This application has registration and authorization with access token, the new user should activate the account by confirming the mail. The application allows you to add, delete, edit, change statuses, categorize and filter tasks. This application was created using React, Hooks, React Router DOM, Redux Toolkit and Tailwind CSS on Frontend, and Node JS, JWT, Passport, MongoDB & Mongoose with Express on Backend.',
+      imgUrl: 'to-do',
+      tags: [
+        'JavaScript',
+        'React',
+        'React Router DOM',
+        'Hooks',
+        'Redux Toolkit',
+        'Tailwind CSS',
+        'NodeJS',
+        'ExpressJS',
+        'MongoDB',
+        'Mongoose'
+      ],
+      codeUrl: 'https://github.com/isin75/To-Do_List_Vite',
+      webUrl: 'https://to-do-list-vite-mauve.vercel.app'
     },
     {
       _id: 'fdjmmokl88787KDnkfj',
-      title: 'Ask Em Surveys',
+      title: 'Slack',
       description:
-        'This App Will Help You to Create Your Own Surveys, Share Them With the Environment by Link, and See Real Time Results. This App Created Using JavaScript, Vue, VueX,SCSS in the Frontend, and NodeJS, ExpressJS, MongoDB, Socket.IO in the Backend.',
-      imgUrl: 'askem',
-      tags: ['JavaScript', 'Vue', 'VueX', 'SCSS', 'NodeJS', 'ExpressJS', 'MongoDB', 'Socket.io'],
-      codeUrl: 'https://github.com/tomdor123/projAskEm',
-      webUrl: 'https://proj-askem.herokuapp.com'
+        'This app is a copy of the Slack chat with implemented authorization. In this app you can see online users, write and receive messages in real time, create, add users or join chats. This application is created using JavaScript, React, React Router DOM, Tailwind CSS, ANTD, Redux Toolkit, Socket.IO in Frontend, and NodeJS, ExpressJS, MongoDBm Mongoose, Socket.IO in Backend.',
+      imgUrl: 'slack',
+      tags: [
+        'JavaScript',
+        'React',
+        'React Router DOM',
+        'Hooks',
+        'Redux Toolkit',
+        'Tailwind CSS',
+        'NodeJS',
+        'ExpressJS',
+        'MongoDB',
+        'Mongoose',
+        'Socket.io'
+      ],
+      codeUrl: 'https://github.com/isin75/slack_vite',
+      webUrl: 'https://slack-vite.vercel.app'
     },
     {
       _id: 'f909jJDHKFD8KJPAj',
@@ -72,9 +95,19 @@ const portfolio = {
       _id: 'f909jdioj8JDKJ9kk',
       title: 'Square Clicker Challenge',
       description:
-        'This App Will Allow You Create Meme Download Them, and Send Them to Your Family & Friends. This App Created Using React, Redux and SCSS. ',
+        'In this game, you have time to click on the highlighted square, there are 3 difficulty levels, and the custom game mode, as well as a player record table. The time allowed to press a square and the number of points per click depends on how successful the game is. It is an application created using React, Redux Tailwind CSS, MongoDB, Node JS.',
       imgUrl: 'meme-generator',
-      tags: ['HTML5', 'CSS3', 'JavaScript'],
+      tags: [
+        'JavaScript',
+        'React',
+        'React Router DOM',
+        'Hooks',
+        'Redux',
+        'Tailwind CSS',
+        'NodeJS',
+        'ExpressJS',
+        'MongoDB'
+      ],
       codeUrl: 'https://github.com/StavDorkam119/Sprint-2-Meme-Generator',
       webUrl: 'https://stavdorkam119.github.io/Sprint-2-Meme-Generator'
     }

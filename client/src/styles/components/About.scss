@@ -48,13 +48,18 @@
         margin-right: 0;
         width: 100%;
       }
-
-      .about-me-img {
+      .about-me-img-container {
         width: 40vh;
         height: 40vh;
-        margin: 0 auto 2rem;
-
         border-radius: 250px;
+
+        .about-me-img {
+          width: 40vh;
+          height: 40vh;
+          margin: 0 auto 2rem;
+
+          border-radius: 250px;
+        }
       }
     }
   }

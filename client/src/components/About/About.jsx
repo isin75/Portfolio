@@ -14,7 +14,11 @@ const About = ({ about }) => {
         <div className="about-details">
           <h2 className="about-title section-title">{about.title}</h2>
           <p className="about-description">{about.description}</p>
-          <a href={null} className="download-link">
+          <a
+            href="./resume/Ivan Shyshykin FullStack Developer.pdf"
+            download="Ivan Shyshykin FullStack Developer.pdf"
+            className="download-link"
+          >
             Download Resume
           </a>
         </div>

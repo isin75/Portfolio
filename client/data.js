@@ -23,7 +23,7 @@ const portfolio = {
       title: 'Git Browser',
       description:
         'This application allows you to search for GitHub users, view open repositories, read README files, and go to the user or repository page. This application is created using React Hooks, Tailwind CSS, GitHub API.',
-      imgUrl: 'gitbrowser',
+      imgUrl: 'gitB',
       tags: ['JavaScript', 'React', 'Hooks', 'Tailwind CSS'],
       codeUrl: 'https://github.com/isin75/Git_brouser_vite',
       webUrl: 'https://git-brouser-vite.vercel.app/'
@@ -81,16 +81,16 @@ const portfolio = {
       codeUrl: 'https://github.com/isin75/slack_vite',
       webUrl: 'https://slack-vite.vercel.app'
     },
-    {
-      _id: 'f909jJDHKFD8KJPAj',
-      title: 'Weather',
-      description:
-        'This App Will Allow You to Get the Weather in Your Own Country / in Your Destination Country. This App Created Using React, Redux and SCSS. ',
-      imgUrl: 'weather',
-      tags: ['JavaScript', 'Vue', 'VueX', 'SCSS', 'NodeJS', 'ExpressJS', 'MongoDB', 'Socket.io'],
-      codeUrl: 'https://github.com/NofarPeled/Weather-App',
-      webUrl: 'https://nofarpeled.github.io/Weather-App'
-    },
+    // {
+    //   _id: 'f909jJDHKFD8KJPAj',
+    //   title: 'Weather',
+    //   description:
+    //     'This App Will Allow You to Get the Weather in Your Own Country / in Your Destination Country. This App Created Using React, Redux and SCSS. ',
+    //   imgUrl: 'weather',
+    //   tags: ['JavaScript', 'Vue', 'VueX', 'SCSS', 'NodeJS', 'ExpressJS', 'MongoDB', 'Socket.io'],
+    //   codeUrl: 'https://github.com/NofarPeled/Weather-App',
+    //   webUrl: 'https://nofarpeled.github.io/Weather-App'
+    // },
     {
       _id: 'f909jdioj8JDKJ9kk',
       title: 'Square Clicker Challenge',

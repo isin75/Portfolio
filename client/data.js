@@ -96,7 +96,7 @@ const portfolio = {
       title: 'Square Clicker Challenge',
       description:
         'In this game, you have time to click on the highlighted square, there are 3 difficulty levels, and the custom game mode, as well as a player record table. The time allowed to press a square and the number of points per click depends on how successful the game is. It is an application created using React, Redux Tailwind CSS, MongoDB, Node JS.',
-      imgUrl: 'meme-generator',
+      imgUrl: 'game',
       tags: [
         'JavaScript',
         'React',

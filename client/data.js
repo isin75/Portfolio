@@ -91,26 +91,6 @@ const portfolio = {
     //   codeUrl: 'https://github.com/NofarPeled/Weather-App',
     //   webUrl: 'https://nofarpeled.github.io/Weather-App'
     // },
-    {
-      _id: 'f909jdioj8JDKJ9kk',
-      title: 'Square Clicker Challenge',
-      description:
-        'In this game, you have time to click on the highlighted square, there are 3 difficulty levels, and the custom game mode, as well as a player record table. The time allowed to press a square and the number of points per click depends on how successful the game is. It is an application created using React, Redux Tailwind CSS, MongoDB, Node JS.',
-      imgUrl: 'game',
-      tags: [
-        'JavaScript',
-        'React',
-        'React Router DOM',
-        'Hooks',
-        'Redux',
-        'Tailwind CSS',
-        'NodeJS',
-        'ExpressJS',
-        'MongoDB'
-      ],
-      codeUrl: 'https://github.com/StavDorkam119/Sprint-2-Meme-Generator',
-      webUrl: 'https://stavdorkam119.github.io/Sprint-2-Meme-Generator'
-    }
   ],
   technologies: [
     {

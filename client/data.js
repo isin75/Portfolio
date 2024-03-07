@@ -80,7 +80,7 @@ const portfolio = {
       ],
       codeUrl: 'https://github.com/isin75/slack_vite',
       webUrl: 'https://slack-vite.vercel.app'
-    },
+    }
     // {
     //   _id: 'f909jJDHKFD8KJPAj',
     //   title: 'Weather',
@@ -90,7 +90,7 @@ const portfolio = {
     //   tags: ['JavaScript', 'Vue', 'VueX', 'SCSS', 'NodeJS', 'ExpressJS', 'MongoDB', 'Socket.io'],
     //   codeUrl: 'https://github.com/NofarPeled/Weather-App',
     //   webUrl: 'https://nofarpeled.github.io/Weather-App'
-    // },
+    // }
   ],
   technologies: [
     {
